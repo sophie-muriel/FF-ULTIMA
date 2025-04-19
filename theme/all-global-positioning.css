@@ -587,7 +587,7 @@ just need to find the right combination of sidebar-launcher events
 }}
     
 /* vertical toolbar tweaks */
-.tools-and-extensions:not(:hover){ opacity:0.5 !important;}
+/* .tools-and-extensions:not(:hover){ opacity:0.5 !important;} */
 span.button-background.labelled label {padding-left: 5px !important;}
 .button-background {&.labelled { gap: 15px !important;}} 
 
@@ -761,9 +761,9 @@ menupopup menuseparator {opacity:0.2 !important;}
     
 #navigator-toolbox {scrollbar-width:auto !important; scrollbar-color:rgba(70, 70, 80, 0.2) rgba(5,5,5, 0.0) !important;}  
 
-.tabbrowser-tab[pending] .tab-content {
-  opacity: 0.2 !important;
-}    
+/* .tabbrowser-tab[pending] .tab-content { */
+/*   opacity: 0.2 !important; */
+/* }     */
 
 
 /* 4/1/2025 firefox 137 */
@@ -817,4 +817,5 @@ menupopup menuseparator {opacity:0.2 !important;}
 
 /*--------------------------------------------------------------------------------------------------------------------*/
     
+
 
