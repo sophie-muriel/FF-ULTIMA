@@ -29,4 +29,87 @@ License:           MPL 2.0 https://github.com/soulhotel/FF-ULTIMA/blob/main/LICE
 
 @import url(theme/all-global-configurations.css);
 
+/* Sophie's edit */
 
+.button-background {
+  border: none !important;
+}
+
+#vertical-tabs .tab-background {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#vertical-tabs .tabbrowser-tab:hover .tab-background {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#vertical-tabs .tabbrowser-tab[selected] .tab-background {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#vertical-tabs .tab-close-button {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#vertical-tabs .tab-close-button:hover,
+#vertical-tabs .tab-close-button:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+@namespace url("http://www.w3.org/1999/xhtml");
+@namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#nav-bar toolbarbutton,
+#nav-bar toolbarbutton > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1,
+#nav-bar .toolbarbutton-badge-stack,
+#PanelUI-button,
+#downloads-button,
+#fxa-avatar-image,
+#identity-box,
+#tracking-protection-icon-container,
+#urlbar-go-button,
+#star-button-box,
+#unified-extensions-button,
+#unified-extensions-button > image,
+#unified-extensions-button > .toolbarbutton-icon {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#nav-bar toolbarbutton:hover,
+#nav-bar toolbarbutton:focus,
+#PanelUI-button:hover,
+#downloads-button:hover,
+#fxa-avatar-image:hover,
+#identity-box:hover,
+#tracking-protection-icon-container:hover,
+#urlbar-go-button:hover,
+#star-button-box:hover,
+#unified-extensions-button:hover,
+#unified-extensions-button:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#identity-box,
+#identity-box:hover,
+#identity-icon,
+#identity-icon:hover,
+#identity-box > image,
+#identity-box > .identity-box-button {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
