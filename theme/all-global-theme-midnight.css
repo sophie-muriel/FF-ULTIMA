@@ -33,13 +33,13 @@ Custom Background
     --uc-background-layered: rgba(10, 10, 10, 1);
     --uc-transparent: rgba(0,0,0,0);
     --uc-button-selected: rgba(27, 28, 29,1);
-    --uc-tab-selected-bg: rgba(19, 20, 24,1);
+    --uc-tab-selected-bg: rgba(27, 28, 29,1);
     --uc-urlbar-background: rgba(7, 7, 7,1);
     --uc-panel-background: rgba(7, 7, 7, 0.95);
     --uc-panel-border: rgba(25, 25, 35, 1);
     --uc-panel-border-ii: rgba(35, 35, 45, 0.5);
     --uc-context-menu: rgb(7, 7, 7);
-    --uc-tabs-background: var(--uc-background-main);
+    --uc-tabs-background: rgba(27, 28, 29,1);
     --uc-sb-background: var(--uc-background-main);
     --uc-tabs-lwt: color-mix(in srgb, var(--lwt-accent-color) 75%, #000);
     --uc-sb-lwt: color-mix(in srgb, var(--lwt-accent-color) 75%, #000);
@@ -386,5 +386,6 @@ Custom Background
 }
       
 }
+
 
 
