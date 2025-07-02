@@ -1,60 +1,63 @@
-### <ins> FF Ultima Version 2.0 Release
-- **[Click Me ⬇️ Release Download](https://github.com/soulhotel/FF-ULTIMA/releases/download/2.0/ffultima2.0.zip)**
+### <ins> FF Ultima Version 3.1 Release
+- **[Click Me ⬇️ Release Download](https://github.com/soulhotel/FF-ULTIMA/releases/download/3.1/ffultima3.1.zip)**
 - **[Click Me ⬇️ Source Download](https://github.com/soulhotel/FF-ULTIMA/archive/refs/heads/main.zip)**
-- ⬇️ Please follow the [installation instructions](https://github.com/soulhotel/FF-ULTIMA#installation) on main page.
 - 🗨️ [Submit an issue](https://github.com/soulhotel/FF-ULTIMA/issues/new/choose) or ask questions not answered in [the Wiki](https://github.com/soulhotel/FF-ULTIMA/wiki).
 - ⚙️ [Change settings](https://github.com/soulhotel/FF-ULTIMA/wiki/Settings), tab size, autohiding, spacing, and more.
-- 🎨 Learn how to [create a Color Scheme](https://github.com/soulhotel/FF-ULTIMA/wiki/Create-a-Color-Scheme) like [Catppuccin](https://github.com/soulhotel/FF-ULTIMA/blob/next-release/theme/color-schemes/catppuccin/readme.md) or [Gruvbox](https://github.com/soulhotel/FF-ULTIMA/blob/next-release/theme/color-schemes/gruvbox-light/readme.md).
-
+- ⚙️ [How to Update](https://github.com/soulhotel/FF-ULTIMA/wiki/How-to-Update-the-Theme) the Theme to a new version.
+  
 ### <ins> Version Notes
-- *For the first time in a long time, nothing’s falling apart. Like singing along to your favorite song - to that part where no other can sway your heart. All the pieces are strung so that you cant bite your tongue. So enjoy it while it last. Stability.*
-- **Thank you** to everyone that have been reporting issues and beta changes
-- Sidebar [glitching out of position](https://connect.mozilla.org/t5/discussions/firefox-sidebar-and-vertical-tabs-try-them-out-in-nightly/m-p/87361/highlight/true#M33460) [error fixed](https://whattrainisitnow.com/beta/)!
-- User.js recommended (not required) for new settings
-- Firefox 138+ required
+- This is a tiny *quality of life* update focused on stability & fine tuning the theme.
+- User.js (recommended) not required.
+- Firefox 138+ required.
+<!--
+- User.js required. 
+- User.js not required.
+- User.js (recommended) not required. 
+-->
 
 ### <ins> Change Log:
-- `fyi • ℹ️ • ` Vertical Tab autohiding can be enabled/disabled in the Settings Sidebar
-- `fyi • ℹ️ • ` Firefox 138, tab groups can now be dragged/moved & tabs can now be moved around them
-- `fyi • ℹ️ • ` Remove Settings `ultima.sidebar.longer`,`ultima.sidebar.hidden`,`ultima.disable.contextmenu.collapsing`
-- `fix • 🔴 • ` Window outlines in fullscreen videos, fixed #280
-- `fix • 🔴 • ` spacing corrections, left/right
-- `fix • 🔴 • ` All sidebar splitters (resizeable bar) are styled and work great
-- `fix • 🔴 • ` Setting `ultima.sidebery.autohide` overlays webpage when verttabs are disabled #283
-- `new • 🟢 • ` Setting `ultima.xstyle.bookmarks.autohide` autohide bookmarks bar
-- `new • 🟢 • ` Setting `ultima.sidebar.seperator` seeprates the two sidebars to opposite sides of the Browser #279
-- `new • 🟢 • ` Setting `ultima.xstyle.newtabbutton.ontop.i` puts the New Tab button at the top of the Verttabs
-- `new • 🟢 • ` Setting `ultima.xstyle.highlight.aboutconfig` highlights the aboutconfig Tab
-- `new • 🟢 • `  Adaptive Tab Color [Extension now supportted](https://github.com/soulhotel/FF-ULTIMA/wiki/Adaptive-Tab-Color-Configuration) #247
-- `qol • 🟡 • ` Sidebar white/gray border removed
-- `qol • 🟡 • ` Thinner Vertical Tabs
-- `qol • 🟡 • ` Tab group white border removed
-- `qol • 🟡 • ` Mini toolbar buttons under vertical tabs are now centered
-- `qol • 🟡 • ` Setting `ultima.spacing.compact` now shrinks tab margins slightly
+- `fyi • ℹ️ •` "The Hard Way" installation method fully [automates](https://github.com/soulhotel/FF-ULTIMA?tab=readme-ov-file#installation) install & updates for all Operating Systems
+- `fix • 🔴 •` Find bar visibility adjustment 92cba3d
+- `fix • 🔴 •` About:config will now notify you about setting `user.theme.transparent`
+- `fix • 🔴 •` Setting `ultima.tabs.tabgroups.background.4` no longer increases width of vertical tabs, no more shift 23f0311
+- `new • 🟢 •` Setting `ultima.tabs.tabgroups.label.3` is now the new default tab groups style 23f0311
+- `new • 🟢 •` Setting `ultima.navbar.bookmarks.scrollable` lets you scroll the bookmarks toolbar credit to @dreadbalaur for the inspiration 58efa73
+- `new • 🟢 •` Setting `ultima.navbar.bookmarks.scrollable` works when using only buttons on the bookmarks bar e0d5e30
+- `new • 🟢 •` Setting `ultima.navbar.bookmarks.compact` shrinks the height of the bookmarks toolbar, when floating, the bookmarks shrink both height & width instead a8d8174.
+- `qol • 🟡 •` Setting `ultima.navbar.bookmarks.fading` is no more
+- `qol • 🟡 •` Setting `ultima.navbar.bookmarks.float.autohide` is no more
+- `qol • 🟡 •` Setting `ultima.navbar.bookmarks.float.compact` is no more
+- `qol • 🟡 •` Setting `ultima.navbar.bookmarks.float.left` is no more
+- `qol • 🟡 •` Setting `ultima.navbar.bookmarks.float.smaller` is no more
+- `qol • 🟡 •` Positioning and autohiding of the "floating bookmarks bar" now works with the existing `ultima.navbar.bookmarks.autohide` & `ultima.navbar.bookmarks.centered` settings. This allows for consistent positioning and less settings clogging up your about:config page a8d8174 #328
+- `qol • 🟡 •` Tab groups background colors adjustments 
+- `fix • 🟡 •` Setting `ultima.navbar.bookmarks.centered` adjust when Window width is smaller 5283649
+- `qol • 🟡 •` Window controls (on windows) spacing & sizing adjustments 7baa6e5
+- `qol • 🟡 •` Window controls spacing (in Windows) & consistent colors when window is active/inactive/colorscheme 0422b64
+- `qol • 🟡 •` Setting `ultima.tabs.pinnedtabs.style.1` renamed to `ultima.tabs.always.show.pinned` for clarity. `pinnedtabs.style.1` will still work for now, but it will soon be removed in favor of the new name 84f48fe
+- `qol • 🟡 •` Transparent color scheme adjustments
+- `qol • 🟡 •` YT styling, transparent adjustments 
+- `qol • 🟡 •` Floating urlbar adjustments #329 83d9f80
+- `qol • 🟡 •` Incorporate compact addon manager #326
+<!--
+`fyi • ℹ️ •`
+`fix • 🔴 •` 
+`new • 🟢 •` 
+`qol • 🟡 •` 
+`wip • ℹ️ •` 
+-->
 
+> FF Ultima *Kanagawa Wave* Edition by @pitchaya-s
 
-> Adaptive Tab Color Support
+![image](https://github.com/user-attachments/assets/748ab6bb-b2c9-421e-abf7-4a05415eb198)
 
-https://github.com/user-attachments/assets/789a31ea-d17a-4292-994e-97147f2c2a59
+> Scrollable bookmarks toolbar
 
-> Bookmarksbar autohiding
+https://github.com/user-attachments/assets/db034047-987b-4851-b118-f7b4ec2a29eb
 
-https://github.com/user-attachments/assets/1d27e58a-197e-4fc6-9889-7ec439e4cd7d
+> Setting `user.theme.transparent`. See the [wiki](https://github.com/soulhotel/FF-ULTIMA/wiki/Transparent-Theming).
 
-> Sidebar resizing, positioning, left/right
-
-https://github.com/user-attachments/assets/b66c4dd4-c38b-4774-8182-80e67a0a1369
-
-> Sidebar seperator, new setting
-
-https://github.com/user-attachments/assets/481a3d36-1dbf-4413-b51b-4b8e56606da0
-
-> Sidebery resizing
-
-https://github.com/user-attachments/assets/02e408a6-0cc1-496f-9388-1f4ef0958327
-
-> New Tab Button On Top
-
-https://github.com/user-attachments/assets/ecbba1bf-7535-4d6e-bfb7-0db2dd5db4c5
+![transparentt](https://github.com/user-attachments/assets/f78d6606-e194-4b48-a395-145874789575)
+![Screenshot_20250624_050538](https://github.com/user-attachments/assets/3be6c64b-338a-4c65-a183-3a0ac16896b5)
 
 > FF Ultima is reaching it's maturity, additional updates to the theme will most likely only focus on bugs, patches, and fine-tuning. If you'd like to see more features added to the list, feel free to fork or push via pull request. Contributors, like always - are always welcome. Otherwise, enjoy.
