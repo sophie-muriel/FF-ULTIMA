@@ -134,7 +134,7 @@ ultima.urlbar.hide.trackingprotection.icon
           }
           /* when extended = scale */
           &[breakout-extend] {
-              max-width: 33vw !important;
+              max-width: 80vw !important;
               position: fixed !important;
               top: 20vh !important;
               left: 50% !important;
