@@ -12,15 +12,15 @@ License:           https://github.com/soulhotel/FF-ULTIMA/blob/main/LICENSE MPL 
 \////////////////////////////////////////////////////////////////////////////////////////*/
 
 /* color schemes */
-user_pref("user.theme.0.default", true);
+user_pref("user.theme.0.default", false);
 user_pref("user.theme.transparent", false);
 user_pref("user.theme.catppuccin", false);
 user_pref("user.theme.catppuccin-frappe", false);
 user_pref("user.theme.catppuccin-mocha", false);
 user_pref("user.theme.gruvbox", false);
 user_pref("user.theme.kanagawa-wave", false);
-user_pref("user.theme.midnight", false);
-user_pref("user.theme.midnight.animated.background", false);
+user_pref("user.theme.midnight", true);
+user_pref("user.theme.midnight.animated.background", true);
 user_pref("user.theme.scarlet", false);
 user_pref("user.theme.fluent", false);
 user_pref("user.theme.fluent.thinkpad", false);
@@ -29,24 +29,24 @@ user_pref("user.theme.ayu", false);
 user_pref("user.theme.rose-pine", false);
 
 /* nav bar */
-user_pref("ultima.navbar.autohide", false);
+user_pref("ultima.navbar.autohide", false); 
 user_pref("ultima.navbar.float", false);
 user_pref("ultima.navbar.float.fullsize", false);
 user_pref("ultima.navbar.position", "top"); // top or bottom
-user_pref("ultima.navbar.hide.buttons", true);
+user_pref("ultima.navbar.hide.buttons", false);
 user_pref("ultima.navbar.bookmarks.autohide", true);
-user_pref("ultima.navbar.bookmarks.compact", false);
+user_pref("ultima.navbar.bookmarks.compact", true);
 user_pref("ultima.navbar.bookmarks.position", "center"); // left right center
 user_pref("ultima.navbar.bookmarks.scrollable", false);
-user_pref("ultima.navbar.bookmarks.float", false);
+user_pref("ultima.navbar.bookmarks.float", true);
 user_pref("ultima.navbar.bookmarks.hide.icons", false);
 user_pref("ultima.navbar.windowcontrols.carl", false);
 user_pref("ultima.navbar.windowcontrols.trafficlights", false);
-user_pref("ultima.navbar.windowcontrols.whiteout", false);
+user_pref("ultima.navbar.windowcontrols.whiteout", true);
 user_pref("ultima.navbar.windowcontrols.fluent", false);
 user_pref("ultima.navbar.theme.extensionspanel", true);
 user_pref("ultima.disable.windowcontrols.button", false);
-user_pref("ultima.navbar.update.ready.label", false);
+user_pref("ultima.navbar.update.ready.label", true);
 user_pref("ultima.navbar.text.for.icons", false);
 user_pref("ultima.navbar.bookmarks.tab.indicator", false);
 user_pref("ultima.navbar.bookmarks.focus.blur", false);
@@ -58,7 +58,7 @@ user_pref("ultima.urlbar.hide.searchsuggestions", false);
 user_pref("ultima.urlbar.centered", true);
 user_pref("ultima.urlbar.hide.buttons", false);
 user_pref("ultima.urlbar.transparent", false);
-user_pref("ultima.urlbar.float", false);
+user_pref("ultima.urlbar.float", true);
 user_pref("ultima.urlbar.drags.window", false);
 user_pref("ultima.urlbar.scrollable", false);
 user_pref("ultima.urlbar.focus.blur", true);
@@ -71,12 +71,12 @@ user_pref("ultima.urlbar.hide.trackingprotection.icon", false);
 
 /* sidebar */
 user_pref("ultima.sidebar.seperator", false);
-user_pref("ultima.sidebar.hide.header", true);
-user_pref("ultima.sidebar.revamped.hide.when.horizontal", true);
+user_pref("ultima.sidebar.hide.header", false);
+user_pref("ultima.sidebar.revamped.hide.when.horizontal", false);
 // user_pref("ultima.sidebar.compact.treeviews", false);
 
 /* sidebery */
-user_pref("ultima.sidebery.autohide", true);
+user_pref("ultima.sidebery.autohide", false);
 user_pref("ultima.sidebery.expandon.inactive.windows", false);
 user_pref("user.theme.xtension.sidebery", true);
 
@@ -85,8 +85,8 @@ user_pref("ultima.findbar.position.top", true);
 user_pref("ultima.findbar.disable.background.image", false);
 
 /* tabs related settings */
-user_pref("ultima.spacing.compact.tabs", true);
-user_pref("ultima.tabs.disable.update.dot", true);
+user_pref("ultima.spacing.compact.tabs", false);
+user_pref("ultima.tabs.disable.update.dot", false);
 user_pref("ultima.tabs.belowURLbar", true);
 user_pref("ultima.tabs.hide.splitter", false);
 user_pref("ultima.tabs.not.a.progress.bar", true);
@@ -94,24 +94,24 @@ user_pref("ultima.tabs.newtabbutton.ontop.1", false);
 user_pref("ultima.tabs.newtabbutton.ontop.2", false);
 user_pref("ultima.tabs.multiline.labels", false);
 user_pref("ultima.tabs.closetabbutton.on.icon", false);
-user_pref("ultima.tabs.pinned.always.visible", false);
+user_pref("ultima.tabs.pinned.always.visible", true);
 user_pref("ultima.tabs.pinned.transparent.background", false);
 user_pref("ultima.tabs.tabbar.autohide+compact", false);
 user_pref("ultima.tabs.tabbar.autohide", false);
 user_pref("ultima.tabs.tabbar.disabled", false);
 user_pref("ultima.tabs.tabbar.hide.buttonstrip", false);
 user_pref("ultima.tabs.tabgroups.label.1", false);
-user_pref("ultima.tabs.tabgroups.label.2", false);
-user_pref("ultima.tabs.tabgroups.label.3", true);
+user_pref("ultima.tabs.tabgroups.label.2", true);
+user_pref("ultima.tabs.tabgroups.label.3", false);
 user_pref("ultima.tabs.tabgroups.label.tthornton", false);
 user_pref("ultima.tabs.tabgroups.background.1", false);
-user_pref("ultima.tabs.tabgroups.background.2", true);
-user_pref("ultima.tabs.tabgroups.background.3", false);
-user_pref("ultima.tabs.disable.scrollbar", false);
-user_pref("ultima.tabs.horizontal.under.navbar", true);
+user_pref("ultima.tabs.tabgroups.background.2", false);
+user_pref("ultima.tabs.tabgroups.background.3", true);
+user_pref("ultima.tabs.disable.scrollbar", true);
+user_pref("ultima.tabs.horizontal.under.navbar", false);
 user_pref("ultima.tabs.horizontal.fullwidth", false);
 user_pref("ultima.tabs.focus.blur", false);
-user_pref("ultima.tabs.tabCounter", true);
+user_pref("ultima.tabs.tabCounter", false);
 user_pref("ultima.tabs.splitview.tab.seperator", false);
 user_pref("ultima.tabs.splitview.content.outline", false);
 user_pref("ultima.tabs.splitview.focus.opacity", false);
@@ -122,10 +122,10 @@ user_pref("ultima.tabs.tab.outline.color", ""); // red blue green pink black whi
 
 /* vertical tabs defaults */
 user_pref("sidebar.revamp", true);
-user_pref("sidebar.expandOnHover", true);
+user_pref("sidebar.expandOnHover", false);
 user_pref("sidebar.revamp.defaultLauncherVisible", true);
 user_pref("sidebar.expandOnHoverMessage.dismissed", false);
-user_pref("sidebar.visibility", "expand-on-hover");
+user_pref("sidebar.visibility", "always-show");
 user_pref("sidebar.revamp.round-content-area", false); /*handled by theme*/
 user_pref("sidebar.animation.expand-on-hover.duration-ms", 140);
 user_pref("browser.tabs.tabMinWidth", 0); /*dont touch*/
@@ -136,7 +136,7 @@ user_pref("ultima.spacing.compact.contextmenu", false);
 user_pref("ultima.spacing.relaxed.contextmenu", false);
 user_pref("ultima.contextmenu.no.icons", false);
 user_pref("ultima.contextmenu.no.navigation.icons", false);
-user_pref("ultima.contextmenu.reduce.options", false);
+user_pref("ultima.contextmenu.reduce.options", true);
 user_pref("ultima.contextmenu.hide.separators", false);
 
 /* alternate styles */
@@ -146,17 +146,17 @@ user_pref("ultima.tabs.tabContainer.1", false);
 user_pref("ultima.tabs.tabContainer.2", false);
 user_pref("ultima.tabs.tabContainer.3", true);
 user_pref("user.theme.xtension.newtab.rounded", false); /*new tab page*/
-user_pref("user.theme.xtension.newtab.compact", true);
-user_pref("ultima.xstyle.private", false);              /*private browser home page*/
-user_pref("ultima.spacing.compact.addonmanager", true); /*add on manager*/
-user_pref("ultima.privatebrowsing.gradient.border", false);
+user_pref("user.theme.xtension.newtab.compact", false);
+user_pref("ultima.xstyle.private", true);               /*private browser home page*/
+user_pref("ultima.spacing.compact.addonmanager", false);/*add on manager*/
+user_pref("ultima.privatebrowsing.gradient.border", true);
 
 /* extra theming */
 user_pref("ultima.theme.icons", true);
 user_pref("user.theme.xtension.ublock", true);
-user_pref("user.theme.xtension.YT", false);
-user_pref("user.theme.xtension.reddit", false);
-user_pref("ultima.scrollbar.thin", false);
+user_pref("user.theme.xtension.YT", true);
+user_pref("user.theme.xtension.reddit", true);
+user_pref("ultima.scrollbar.thin", true);
 user_pref("user.theme.xtension.swap.addon.colors", true);
 
 /* override wallpapers */
